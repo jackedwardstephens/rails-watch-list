@@ -1,0 +1,11 @@
+$grid__bp-md: 768;
+.container {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: $grid__bp-md * 1px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.comment {
+  font-style: italic;
+}
