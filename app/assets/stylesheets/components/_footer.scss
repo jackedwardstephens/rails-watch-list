@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 15px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  a {
+    margin: 10px;
+    background-color: #999;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+  }
+  a:hover {
+    background-color: #666;
+  }
+}

@@ -1,11 +1,49 @@
-$grid__bp-md: 768;
 .container {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  max-width: $grid__bp-md * 1px;
-  margin: 0 auto;
-  border: 1px solid black;
+  font-family: 'Lora', serif;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 600px;
+  margin: auto;
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+#form {
+  width: 40em;
 }
 
 .comment {
   font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 22em;
+  margin: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #666;
 }

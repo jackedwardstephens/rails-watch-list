@@ -1,12 +1,12 @@
 <div class="container">
-  <h1>Lists</h1>
+  <h1>My Movie Lists</h1>
     <ul>
       <% @lists.each do |list| %>
         <li class='col-4 d-flex flex-column'><%= link_to list.name, list_path(list) %>
         </li>
       <% end %>
     </ul>
-</div>
-<div class="container">
-  <p><%= link_to "Add a new list", "/lists/new" %></p>
+  <div class="footer">
+    <p><%= link_to "➕ Add a new list", "/lists/new" %></p>
+  </div>
 </div>
